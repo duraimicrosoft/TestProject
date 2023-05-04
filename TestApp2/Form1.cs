@@ -61,7 +61,7 @@ namespace TestApp2
 					string extension = Path.GetExtension(file.Name);
 					if (extension.ToLower() == ".xml" || extension.ToLower() == ".pdf")
 					{
-						filelist.Add(file.FullName);
+						//filelist.Add(file.FullName);
 					}
 					//if (file.LastAccessTime < olderDate)
 					//{
